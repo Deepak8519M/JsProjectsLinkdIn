@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(40, 48, 56);
+}
+.container {
+  width: 80vw;
+  height: 90vh;
+  max-width: 450px;
+  background: rgb(40, 48, 56);
+  padding: 4px 20px;
+  position: relative;
+  border-radius: 10px;
+}
+.game {
+  width: 100%;
+  height: 55%;
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  gap: 5px;
+}
+.boxes {
+  background-color: transparent;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.8), -2px -5px 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(83, 38, 207);
+  font-size: 50px;
+}
+.hover:hover {
+  box-shadow: inset 2px 5px 20px rgba(0, 0, 0, 0.8);
+}
+.turn {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose {
+  width: 40%;
+  height: 60%;
+  background: transparent;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.8), -2px -5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.turn1,
+.turn2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.box1 {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.box3 {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.box7 {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.box9 {
+  border-radius: 10px 0px 10px 0px;
+}
+.turn1 {
+  color: rgb(201, 51, 64);
+}
+.turn2 {
+  color: rgb(83, 38, 207);
+}
+
+.bs {
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.8);
+}
+.msg {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  gap: 5px;
+  font-size: 20px;
+  /* background: green; */
+}
+.hide {
+  display: none;
+}
+.btn {
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  padding: 10px 7px;
+  background: transparent;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.8), -2px -5px 10px rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+}
+.btn:hover {
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  color: rgba(124, 124, 124, 0.726);
+  font-size: small;
+}
+#ng {
+  right: 20px;
+}

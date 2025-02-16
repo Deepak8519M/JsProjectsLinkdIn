@@ -1,0 +1,27 @@
+<!-- for hour hand -->
+12h = 360 degrees
+1h = 30 degrees
+n hours = 30n
+
+60mins = 30 degrees
+1min = 1/2 degrees * n
+
+30n + 1/2 *n  --1
+
+for min hand
+
+60 min = 360 degrees
+1min = 6deg
+n min = 6n -- 2
+
+for seconds
+60 sec = 360deg
+1 sec = 6deg
+n sec = 6n -- 3  
+
+-->
+
+// Rotation calculations
+  let hrotation = 30 * h + m / 2; // 30 degrees per hour, 0.5 degrees per minute
+  let mrotation = 6 * m;          // 6 degrees per minute
+  let srotation = 6 * s;          // 6 degrees per second

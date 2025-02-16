@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bar Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bar Code Generator</h1>
+      <input type="text" id="input" />
+      <button id="btn-barcode-gnrtr">Generate</button>
+
+      <div class="block">
+        <svg id="barcode"></svg>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+</html>
