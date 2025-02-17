@@ -1,0 +1,12 @@
+<!-- ***Mainly focusses on Event Bubbling*** 
+ Time:13:07 
+
+Overflow hidden concept
+
+centre div using flex
+
+height: calc(100% - 50px); 
+
+here we basically cant add event listener for every bubble so we use event Bubbling concept so that we add
+
+event listener to paretnt so that if there is any click between them the event gets generated and we use target attrb to solve the issue.-->
